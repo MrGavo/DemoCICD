@@ -1,9 +1,40 @@
 /* In styles.css */
+body {
+  color: #ffffff;
+  background-color: #05164d;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
 h1 {
-  color: darkblue;
   font-size: 32px;
 }
 
-p {
-  color: red;
+li {
+  font-size: 15px;
 }
+
+p {
+  color: #ffbd32;
+}
+
+#wrap
+{
+    width: 906px;
+    margin: 0 auto;
+}
+
+.card
+{
+    padding: 15px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    color: #05164d;
+    border: 2px solid #ffbd32;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px #5da6ea;
+    width: 250px;
+}
+
+
